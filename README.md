@@ -1,20 +1,41 @@
-# Data Analytics with Python Course - Final Assessment
-## Data Collection and Cleaning
+# README.MD
+# YOUTUBE: TRENDING VIDEOS DATA ANALYTICS REVIEWER 
+## Data Analytics with Python Course - Final Assessment
 submitted by: Ramon (Monch) Mercader
 
+This repository is a submission as part of the Data Analytics course final assessment
 submitted to: Ramon Perez / Coder Academy - ramon.perez@coderacademy.edu.au
-
-README.md File
 
 Project folder contents
     - Collect_and_Clean.ipynb (File 1 of 2)<br>
     - Analyzing.ipynb (File 2 of 2)<br>
     - README.md<br>
+    - Project_Background.md (markdown file with project documentation and results)<br>
     - datasets (empty folder for collected datasets)<br>
     - images (folder containing images for notebooks)<br>
     - Youtube_scraper (folder containing youtube data collection script, credits in README.md)<br>
     
-### Project Background
+### Project Title: YOUTUBE: TRENDING VIDEOS DATA ANALYTICS REVIEWER
+
+### Summary: 
+This Repository is part of the Data Analytics with Python Course submission at Coder Academy. Please read the Project_Background.md file for further reading into the submitted work.
+Files contained have been divided into the data gathering python script(folder), data collection and cleaning Jupyter Notebook, Analysis notebook, and folders for the datasets and relevant images. 
+The intention of this repo is to allow other users to download and use the methods outlined in the Project background in case they wish to conduct the same research or iterate over it. 
+
+IMPORTANT NOTE: The datasets folder is intentionally empty to allow other users to collect their own data. If you wish to see the data collected for this project, please refer to the Project_Background.md file  for a link. 
+
+### Data - How to get the data to reproduce for this project:
+The data collection is possible through a Python Youtube Scraper which was slightly modified from this user(This is his Kaggle link to his project) - <a href="https://www.kaggle.com/datasnaek/youtube-new">https://www.kaggle.com/datasnaek/youtube-new</a>
+Direct link to the Github repository for the code - <a href="https://github.com/mitchelljy/Trending-YouTube-Scraper">https://github.com/mitchelljy/Trending-YouTube-Scraper</a>
+
+This scraper grabs Top trending Youtube links from the Youtube API V3 service and writes the code to a CSV file. The Python file can be found inside the Youtube_scraper folder. Please read the README.md file inside that folder for more information. 
+IMPORTANT NOTE: Once you run the file, it will write the CSV files inside the "output" folder. When done, you will need to copy these CSV files into the datasets folder if you wish to use them with this project.  
+
+guy analyzes the data - https://github.com/meyhaa/trending-youtube-videos/blob/master/full_trending_video_analysis.ipynb
+
+3. Data - how to get the data to reproduce your project
+4. Results
+
 
 <div>
 <img src="images/01_tracyliciouz_YTchannel.jpg", alt="Tracy's Youtube Channel", width="600"/>
