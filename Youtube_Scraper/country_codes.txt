@@ -3,5 +3,4 @@ GB
 AU
 PH
 SG
-UK
 NZ
