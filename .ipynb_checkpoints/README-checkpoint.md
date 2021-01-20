@@ -37,3 +37,5 @@ IMPORTANT NOTE: Once you run the file, it will write the CSV files inside the "o
 
 ### Results:
 The project was successful in gathering the relevant Youtube data from the identified countries. And was able to collect, clean, and isolate the required elements of the data. 
+
+# SUBMITTED - 20 January 2021

@@ -121,35 +121,30 @@ Here are my steps in cleaning the data:<br>
     4. Remove duplicate - based on the latest views of an entry<br>
     5. Write to new CSV file for data analysis<br>
 
-### 5. Analysis:<br>
-The Analysis will be done first on a per country, and then across all countries. <br>
-    1. What are the top trending videos per country within a certain period?<br>
+### 5. & 6. Analysis and Data Visualizations:<br>
+To complement the Data Analysis I have consolidated them with the Data Visualizations: <br>
+I've included the Observations after each data visualization section.<br>    
+    1. What are the top trending categories per country?<br>
     2. How many views does it take to become a trending video?<br>
-    3. How long does a video stay trending on average?<br>
-    4. What categories are currently trending?<br>
-    5. Do comments play a role in making a video trend?<br>
+    3. How long does it usually take for a video to trend?<br>
+    4. Exploring if there are any relationships between a video's likes and the number of comments around it<br>
+    5. Content Review<br>
+Please check the notebook (Analyzing.ipynb) for more visualizations and descriptions<br>
 
-
-### 6. Visualizations<br>
-Static Visualizations, across all countries:<br>
-    1. Views vs Likes vs Unlikes<br>
-    2. Views vs Comments<br>
-    3. Trending categories<br>
-Interactive Visualizations:<br>
-    1. <br>
-    2. <br>
-   
     
 ### 7. Conclusion
-Based on the current gathered data, I've come to the following conclusions:<br>
-    1. That<br>
-    2. And<br>
-    
-Timeline is short, I feel that in order to get a better understanding, I will need data from 6 months and longer. <br>
+All of this is based on the currently gathered data.<br>
+I really think that this notebook and the process here are a good start to reviewing and analyzing the top trending Youtube videos. <br> It provides a bit more control and transparency over what can be purchased via agencies and having to use Youtube's daily trending video and needing to write those down. <br> For this project, the datasets(csv) gathered were small enough that Excel or Google Sheets would have been able to review them. Although, in terms of control and visualization, it would have been more work. <br> But in the long run, especially when the data starts to go into months and year(not years because by then, trends would have probably changed already), this would be a lot more advantageous than having to run everything through Excel or Sheets. 
 
     
 ### 8. Future Work
-Ideally, I am planning to run the scraper over a period of 6 to 12 months, the intention is <br>
+I plan on using this and reviewing it by end of the month with Tracy. And then see if it's something she can use for her channel on a regular basis. <br> From there I will probably tweak a few things, mainly:<br>
+- Automation, a lot of the tasks in the notebook and the scraper should be automated more. I think the scraper can be run with a cron job on a server to save time of me having to run it daily. 
+- Longer timeframes, as mentioned before, I think a time period of 3, 6, and a 12 month period should be done. Hopefully, we can see where trends are going and help Tracy adjust to the coming trends of the following year
+- Better visualizations, I really want to explore more data viz, but more interactive ones. To help create a simple dashboard, but have the freedom to do the code when required. Especially in finding the correlations and filtering categories and videos. 
+- Adding in features like reading through Titles, comments. This can help to create an idea of context and what the videos are about. Also potentially sentiments on the comments. Then I can flesh out likes>dislikes>comment sentiments and what exactly are they saying
+- Music, something that maybe A.I. can do, or in the short term, just parsing through descriptions and finding any licensing tags. This can help out in identifying what types of music people like. 
+- Finally, maybe explore computer vision and A.I. to review the videos. One thing I am really interested in are the production quality and how the videos are created. Are there more talking heads? Are they cinematic? Do they have a lot of changes to scenes?
 
     
 
