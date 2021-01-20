@@ -1,0 +1,1 @@
+This file is a Git sync text file to confirm that Git repository has been synced across both machines
